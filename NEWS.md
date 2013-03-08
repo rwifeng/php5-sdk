@@ -1,5 +1,37 @@
 ## CHANGE LOG
 
+### v3.2.3
+2013-3-7
+
+update document of v3.2.2
+
+更新 v3.2.2 的文档(docs/README.md) 
+ 
+参考：
+
+1. Issue [#19](https://github.com/qiniu/php5-sdk/pull/19)
+
+Private resources download support downToken
+
+私有资源下载支持downToken
+
+参考：
+
+1. Issue [#18](https://github.com/qiniu/php5-sdk/pull/18)
+2. [[API]私有资源下载](http://docs.qiniutek.com/v3/api/io/#private-download)
+3. [[SDK]增加QBox_MakeDownloadToken()方法](http://docs.qiniutek.com/v3/sdk/php5/#download-token)
+
+move file
+
+移动文件
+
+参考：
+
+1. Issue [#17](https://github.com/qiniu/php5-sdk/pull/17)
+2. [[API]移动文件](http://docs.qiniutek.com/v3/api/io/#move)
+3. [[SDK]增加Move()方法](http://docs.qiniutek.com/v3/sdk/php5/#move)
+
+
 ### v3.2.1
 
 allow images uploaded auto-orient.
@@ -18,6 +50,7 @@ allow images uploaded auto-orient.
 allow files uploaded auto callback some APIs (like imageInfo, exif, etc…), and add those APIs callback results as part of the custom data for POST biz-server.
 
 允许上传文件(图片)成功后执行回调指定的 API (比如 imageInfo, exif 接口等)，并将指定API的回调结果一并 POST 发送给客户方的业务服务器。
+
 
 参考：
 
